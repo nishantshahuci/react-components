@@ -22,4 +22,5 @@ const CommentDetail = props => {
     );
 };
 
+// export the component
 export default CommentDetail;

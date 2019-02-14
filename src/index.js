@@ -7,11 +7,13 @@ import faker from 'faker';
 
 // import components
 import CommentDetail from './CommentDetail';
+import ApprovalCard from './ApprovalCard';
 
 // App component
 const App = () => {
     return (
         <div className="ui container comments">
+            <ApprovalCard />
             <CommentDetail
                 author="Sam"
                 timeAgo="Today at 4:45PM"
